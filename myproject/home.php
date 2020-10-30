@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>HOME</title>
+<h1><b>GROCERY LIST MANAGEMENT HOME PAGE</b></h1>
+<style>
+body
+{
+background:linear-gradient(red,blue);
+}
+#button1
+{
+font-size:40px;
+background-color:green;
+color:white;
+height:69px;
+width:250px;
+border-radius:25px;
+position:relative;
+			top:100px;
+			left:40px
+}
+#button2
+{
+	font-size:40px;
+background-color:grey;
+color:black;
+height:105px;
+width:380px;
+border-radius:25px;
+position:relative;
+			top:250px;
+			left:200px
+}
+#button3
+{
+	font-size:40px;
+background-color:yellow;
+color:black;
+height:69px;
+width:250px;
+border-radius:25px;
+position:relative;
+			top:-30px;
+			left:500px
+}
+#button4
+{
+	font-size:40px;
+background-color:blue;
+color:white;
+height:69px;
+width:250px;
+border-radius:25px;
+position:relative;
+			top:-300px;
+			left:800px
+}
+#button5
+{
+	font-size:40px;
+background-color:black;
+color:white;
+height:100px;
+width:250px;
+border-radius:25px;
+position:relative;
+			top:-250px;
+			left:1000px
+}
+</style>
+</head>
+<body>
+<p id='button1' align="center"><a href='pricedisplay.php'><font color="white">see all prices</p>
+<p id='button2' align="center"><a href='inserting_prices.html'><font color="black">insert new items with prices</p>
+<p id='button3' align="center"><a href='updateprice.php'><font color="black">update prices</p>
+<p id='button4' align="center"><a href='deleteprice.php'><font color="white">delete items</p>
+<p id='button5' align="center"><a href='addinglist.php'><font color="white">create grocery list</p>
+</body>
+</html>
